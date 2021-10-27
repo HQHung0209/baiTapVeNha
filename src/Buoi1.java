@@ -95,23 +95,35 @@ public class Buoi1 {
 //            System.out.println("Tổng tiền sau khi giảm : " + total);
 //        }
 
-        String message = "";
-        if(total > 0 ){
-            if ( total > 500000){
-                message = "giảm 20%";
-                total = (int) (total * 0.8);
-            }else if( total >200000){
-                message = "giảm 15%";
-                total = (int) (total * 0.85);
-            }else if ( total >100000){
-                message = "giảm 10%";
-                total = (int) (total * 0.9);
-            }else{
-                message = " không đc giảm";
-            }
-        }else {
-            message = "dữ liệu sai";
-        }
+//        String message = "";
+//        if(total > 0 ){
+//            if ( total > 500000){
+//                message = "giảm 20%";
+//                total = (int) (total * 0.8);
+//            }else if( total >200000){
+//                message = "giảm 15%";
+//                total = (int) (total * 0.85);
+//            }else if ( total >100000){
+//                message = "giảm 10%";
+//                total = (int) (total * 0.9);
+//            }else{
+//                message = " không đc giảm";
+//            }
+//        }else {
+//            message = "dữ liệu sai";
+//        }
+
+//        int month = 2;
+//        switch (month){
+//            case 1 :
+//            case 2 :
+//            case 3 :
+//                System.out.println("Quy 1");
+//                break;
+//            default:
+//                System.out.println("Khong thuoc quy nao");
+//                break;
+//        }
     }
 
 
